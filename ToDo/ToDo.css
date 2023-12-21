@@ -1,0 +1,84 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+.main{
+    width: 1440px;
+    height: 1024px;
+}
+.header{
+    width: 1440px;
+    height: 100px;
+    background-color: #F1ECE6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+
+}
+.haerd .img{
+    width: 230.769px;
+    height: 60px;
+}
+.workspace{
+    width: 1440px;
+    height: 924px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.inputdiv{
+    width: 1040px;
+    height: 78px;
+    background-color: #fff;
+    position: absolute;
+    top: 59px;
+    
+}
+#input{
+    text-decoration: none;
+    position: absolute;
+    width: 917px;
+    height: 78px;
+    border: none;
+    background-color: #F1ECE6;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    outline: none;
+    color: black;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.add{
+    width: 123px;
+    height: 80px;
+    background-color: #76B7CD;
+    position: absolute;
+    left: 917px;
+    border-color: #76B7CD;
+    border-top-right-radius: 50px;
+    outline: none;
+    border-bottom-right-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+.add h1{
+    color: #F3F3F3;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.9px;
+}
