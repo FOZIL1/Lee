@@ -1,0 +1,423 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+.bigbro{
+    display: flex;
+    flex-direction: column;
+}
+.navbar{
+    width: 100%;
+    height: 84px;
+    background-color: #F5F7FA;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.navbar img{
+    position: absolute;
+    left: 105px;
+
+}
+.nav{
+    display: inline;
+    display:flex;
+    width: 588px;
+    height: 24px;
+    align-items: center;
+    justify-content:space-around;
+}
+.nav a{
+    text-decoration: none;
+    color: #18191F;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+.navbar .logins{
+    position: absolute;
+    left: 1090px;
+}
+.logins .second{
+    color: aliceblue;
+    width: 91px;
+    height: 40px;
+    background-color:#4CAF4F;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    text-decoration: none;
+    
+}
+.logins .first{
+    color: #4CAF4F;
+    width: 77px;
+    height: 40px;
+    padding: 10px 20px;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    text-decoration: none;
+}
+.into {
+    width: 100%;
+    height: 503px;
+    
+}
+.dods{
+    width: 100%;
+    height: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+
+
+}
+.into .wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-self: stretch;
+    column-gap: 104px;
+    justify-content: center;
+}
+
+.into .registe{
+    width:128px;
+    height: 52px;
+    background-color: #4CAF4F;
+    border-radius: 4px;
+    outline: none;
+    border-style: none;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    color: #F5F7FA;
+    cursor: pointer;
+
+}
+.into .right_side{
+    padding-top: 96px;
+}
+.into .left_side{
+    padding-top: 150px ;
+}
+.into .left_side p{
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: #717171;
+    padding-top: 6px;
+    padding-bottom: 32px;
+}
+.into .svg1{
+   padding-top: 150x;
+   padding-left: 600px;
+   display: flex;
+   justify-content: center;
+}
+.into .svg2{
+    position: absolute;
+    bottom: -50px;
+    left:667px ;
+}
+.into .svg3{
+    position: absolute;
+    bottom: -50px;
+    left:685px;
+}
+.client{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.client .title{
+    color: #4D4D4D;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+    margin-top: 40px;
+}
+.client h3{
+    color: #717171;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 8px;
+}
+.client .clientlogo{
+    width:1152px ;
+    height: 98px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.manage{
+    padding-top: 40px;
+}
+.manage pre{
+    display: flex;
+    justify-content: center;
+    color:#4D4D4D;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+}
+.manage p{
+    display: flex;
+    justify-content: center;
+    color: #717171;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding-top: 8px;
+}
+.three{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.unlock{
+    width: 100%;
+    height: 433px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 48px;
+}
+.unlock .img2{
+    display: flex;
+    justify-content:center ;
+    flex-direction: column;
+    width: 661px;
+
+}
+.unlock .img2 h1{
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+    color: #4D4D4D;
+}
+.unlock .img2 p{
+    padding-top: 20px;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    color: #717171;
+    padding-bottom: 40px;
+}
+.unlock .img2 button{
+    width:128px;
+    height: 52px;
+    background-color: #4CAF4F;
+    border-radius: 4px;
+    outline: none;
+    border-style: none;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    color: #F5F7FA;
+    cursor: pointer;
+
+}   
+.info{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 288px;
+    background:#F5F7FA;
+}
+.unlock_nd{
+    padding-top:110px;
+    display: flex;
+    justify-content: space-between ;
+    height: 433.4px;
+    justify-content: center;
+    align-items: center;
+    column-gap:  100px;
+    margin-bottom: 48px;
+}
+.unlock_nd h1{
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+    color: #4D4D4D;
+}
+.unlock_nd p{
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    color: #717171;
+    margin-bottom: 32px;
+}
+.unlock_nd button{
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    color: white;
+    width: 151px;
+    height: 52px;
+    background-color: #4CAF4F;
+    border-radius: 4px;
+    outline: none;
+    border-style: none;
+    cursor: pointer;
+}
+.tesla{
+    width: 100%;
+    height: 390px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+   align-items: start;
+   background-color: #F5F7FA;
+   padding-top: 32px;
+}
+.tesla img{
+    margin-left: 100px;
+    margin-right: 78px;
+}
+.tesla p{
+    color:#717171;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    margin: 0;
+}
+.tesla h1{
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    margin-top:8px;
+    padding: 0;
+    color: #4CAF4F;
+}
+.tesla h5{
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: #89939E;
+    margin-top: 8px;
+    padding: 0;
+    margin-bottom: 32px;
+}
+.tesla .text_wrap img{
+    margin: 0;
+}
+.tesla button{
+    width: 223px;
+    height: 44px;
+    margin: 0;
+    margin-bottom:0px;
+    margin-left:32px ;
+    color: #4CAF4F;
+    outline: none;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    border-style: none;
+    cursor: pointer;
+}
+.oldwoman .car{
+    margin-top: 48px;
+    text-align: center;
+}
+.oldwoman .flex{
+    margin: 0 80px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+.flex img{
+    margin-top: 16px;
+    width: 368px;
+    height: 368px;
+    
+}
+.before{
+    text-align: center;
+    margin-top: 80px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 32px;
+}
+.before img{
+    width: 887px;
+    height: 152px;
+}
+.before button{
+    width:178px;
+    height: 52px;
+    background-color: #4CAF4F;
+    border-radius: 4px;
+    outline: none;
+    border-style: none;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    color: #F5F7FA;
+    cursor: pointer;
+}
+.end{
+    margin-top: 32px;
+    padding:64px 165px;
+    background-color: #263238;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 80px;
+}
